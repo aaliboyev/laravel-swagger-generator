@@ -1,0 +1,26 @@
+{
+    "name": "aaliboyev/lod",
+    "description": "A laravel package to automatically generate OpenAPI specs and swagger UI for api routes",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Aaliboyev\\Lod\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abror Aliboyev",
+            "email": "aalison913@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aaliboyev\\Lod\\LodServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
